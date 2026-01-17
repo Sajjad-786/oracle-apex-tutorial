@@ -22,8 +22,8 @@ All chapters build on each other and should be followed in order.
 - 🔁 Idempotent DDL scripts  
 
 👉 **Start here:**
-- 📄 [Introduction – DDL Standards](chapter_01/introduction.md)
-- 🗄️ [Schema Setup Script](chapter_01/ddl_schema_setup.sql)
+- 📄 [Introduction – DDL Standards](Chapter-01/introduction.md)
+- 🗄️ [Schema Setup Script](Chapter-01/ddl_schema_setup.sql)
 
 ---
 
