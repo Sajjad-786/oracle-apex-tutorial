@@ -20,7 +20,7 @@ AS
     --   - Used for privileged access (bootstrap / system users)
     --   - Returns TRUE only on successful authentication
     --------------------------------------------------------------------------------
-    FUNCTION fn_authenticate_user_super_admin(
+    FUNCTION fn_authenticate_user(
         pi_user_name        IN VARCHAR2
       , pi_password         IN VARCHAR2
     ) RETURN BOOLEAN;
@@ -184,5 +184,7 @@ AS
 
 
 END authentication;
+
+
 /
 
